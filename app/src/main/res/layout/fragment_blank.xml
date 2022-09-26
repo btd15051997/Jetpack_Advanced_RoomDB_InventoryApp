@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <TextView
+        android:id="@+id/textviewTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hello title"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewTitle2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Hôm nay 23/9, FPT và Công ty Cổ phần Ba Huân chính thức hợp tác chuyển đổi số toàn diện, giúp Ba Huân hiện thực hóa tầm nhìn trở thành công ty công nghệ cao và bền vững. Từ đó, tạo ra chuẩn mực chuyển đổi số cho ngành nông nghiệp, mang lại cuộc sống hạnh phúc hơn cho người nông dân."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewTitle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
